@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=v2ray-core
+PKG_NAME:=v2ray
 PKG_VERSION:=4.23.1
 PKG_RELEASE:=1
 
