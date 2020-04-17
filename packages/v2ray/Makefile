@@ -68,6 +68,7 @@ endef
 define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)/usr/bin/v2ray
 	$(INSTALL_BIN) $(BUILD_DIR)/v2ray $(1)/usr/bin/v2ray/v2ray
+	$(INSTALL_BIN) $(BUILD_DIR)/v2ctl $(1)/usr/bin/v2ray/v2ctl
 	$(INSTALL_BIN) $(BUILD_DIR)/geoip.dat $(1)/usr/bin/v2ray/geoip.dat
 	$(INSTALL_BIN) $(BUILD_DIR)/geosite.dat $(1)/usr/bin/v2ray/geosite.dat
 endef
