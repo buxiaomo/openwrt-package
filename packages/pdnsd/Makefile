@@ -50,4 +50,4 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_CONF) $(PKG_BUILD_DIR)/doc/pdnsd.conf $(1)/etc/
 endef
 
-$(eval $(call BuildPackage,pdnsd-alt))
+$(eval $(call BuildPackage,$(PKG_NAME)))
