@@ -4,3 +4,6 @@
 [submodule "luci-app-smartdns"]
 	path = luci/applications/luci-app-smartdns
 	url = https://github.com/buxiaomo/luci-app-smartdns.git
+[submodule "luci/applications/luci-app-smartdns"]
+	path = luci/applications/luci-app-smartdns
+	url = https://github.com/buxiaomo/luci-app-smartdns.git
