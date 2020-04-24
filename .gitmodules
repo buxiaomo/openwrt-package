@@ -1,3 +1,6 @@
 [submodule "luci/applications/luci-app-smartdns"]
 	path = luci/applications/luci-app-smartdns
 	url = https://github.com/pymumu/luci-app-smartdns.git
+[submodule "smartdns"]
+	path = packages/smartdns
+	url = https://github.com/pymumu/openwrt-smartdns.git
