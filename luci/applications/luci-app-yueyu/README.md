@@ -1,0 +1,3 @@
+CONFIG_PACKAGE_pdnsd=y
+CONFIG_PACKAGE_v2ray=y
+CONFIG_PACKAGE_chinadns-ng=y
