@@ -7,3 +7,6 @@
 [submodule "luci/applications/luci-app-smartdns"]
 	path = luci/applications/luci-app-smartdns
 	url = https://github.com/buxiaomo/luci-app-smartdns.git
+[submodule "luci-app-apcupsd"]
+	path = luci/applications/luci-app-apcupsd
+	url = https://github.com/buxiaomo/luci-app-apcupsd.git
