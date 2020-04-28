@@ -7,3 +7,6 @@
 [submodule "luci-app-apcupsd"]
 	path = luci/applications/luci-app-apcupsd
 	url = https://github.com/buxiaomo/luci-app-apcupsd.git
+[submodule "smartdns"]
+	path = packages/smartdns
+	url = https://github.com/pymumu/openwrt-smartdns.git
