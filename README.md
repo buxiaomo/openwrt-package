@@ -23,8 +23,8 @@ git submodule add --force --name <name> <url> <path>
 cd <path>
 git pull
 ### delete
-rm -rf 子模块目录
-vi .gitmodules
-vi .git/config
-rm .git/module/*
-git rm --cached 子模块名称
+rm -rf <name>
+vim .gitmodules
+vim .git/config
+rm -rf .git/module/<name>
+git rm --cached <name>
