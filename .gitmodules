@@ -10,3 +10,6 @@
 [submodule "luci-app-apcupsd"]
 	path = luci/applications/luci-app-apcupsd
 	url = https://github.com/buxiaomo/luci-app-apcupsd.git
+[submodule "fullconenat"]
+	path = packages/fullconenat
+	url = https://github.com/LGA1150/openwrt-fullconenat.git
