@@ -10,7 +10,7 @@ EOF
 uci delete firewall.kms
 uci add firewall rule 
 uci rename firewall.@rule[-1]="kms"
-uci set firewall.@rule[-1].name="kms"
+uci set firewall.@rule[-1].name="Allow-KMS"
 uci set firewall.@rule[-1].target="ACCEPT"
 uci set firewall.@rule[-1].src="wan"
 uci set firewall.@rule[-1].proto="tcp"
