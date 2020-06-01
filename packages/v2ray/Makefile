@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v2ray
-PKG_VERSION:=4.23.1
+PKG_VERSION:=4.23.2
 PKG_RELEASE:=1
 
 ifeq ($(ARCH),x86_64)
