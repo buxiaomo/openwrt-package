@@ -1,0 +1,15 @@
+{
+    "admin/services/aliddns": {
+        "title": "阿里DDNS",
+        "order": 90,
+        "action": {
+            "type": "cbi",
+            "path": "aliddns"
+        },
+        "depends": {
+            "acl": [
+                "luci-app-aliddns"
+            ]
+        }
+    }
+}

@@ -2,10 +2,14 @@
   "luci-app-vlmcsd": {
     "description": "Grant UCI access for luci-app-vlmcsd",
     "read": {
-      "uci": [ "vlmcsd" ]
+      "uci": [
+        "vlmcsd"
+      ]
     },
     "write": {
-      "uci": [ "vlmcsd" ]
+      "uci": [
+        "vlmcsd"
+      ]
     }
   }
 }
