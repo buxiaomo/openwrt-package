@@ -4,3 +4,7 @@
 [submodule "smartdns"]
 	path = packages/smartdns
 	url = https://github.com/pymumu/openwrt-smartdns.git
+[submodule "luci/applications/luci-app-v2ray"]
+	path = luci/applications/luci-app-v2ray
+	url = https://github.com/kuoruan/luci-app-v2ray.git
+	branch = luci2
