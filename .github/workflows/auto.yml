@@ -11,7 +11,7 @@ on:
 
 jobs:
   update:
-    if: github.repository == 'buxiaomo/passwall'
+    if: github.repository == 'buxiaomo/openwrt-package'
     runs-on: ubuntu-latest
 
     steps:
